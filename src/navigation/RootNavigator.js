@@ -1,19 +1,17 @@
-import React from 'react';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import SplashScreen from '../screens/SplashScreen';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import OnboardingScreen from '../screens/OnboardingScreen';
-import OnboardingScreen2 from '../screens/OnboardingScreen';
+import OnboardingScreen2 from '../screens/OnboardingScreen2';
+import SplashScreen from '../screens/SplashScreen';
 
+import ActivityLog from '../screens/ActivityLog';
 import LoginScreen from '../screens/Auth/LoginScreen';
 import RegisterScreen from '../screens/Auth/RegisterScreen';
-import ProfileSetup from '../screens/ProfileSetup';
 import Dashboard from '../screens/Dashboard';
-import ActivityLog from '../screens/ActivityLog';
 import GoalScreen from '../screens/GoalScreen';
+import ProfileSetup from '../screens/ProfileSetup';
 import ProgressScreen from '../screens/ProgressScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import { View, Text } from 'react-native';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
